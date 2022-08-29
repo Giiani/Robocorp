@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220829 10:41:23.188" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="i:\Codeo\Python\Robocorp\tasks.robot">
+<test id="s1-t1" name="Insert the sales data for the week and export it as a PDF" line="6">
+<kw name="Open the intranet website">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20220829 10:41:26.286" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20220829 10:41:26.400" level="INFO">Created download root directory: C:\Users\giaan\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220829 10:41:26.401" level="INFO">Created symlink directory: C:\Users\giaan\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220829 10:41:26.401" level="INFO">Created download root directory: C:\Users\giaan\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220829 10:41:26.402" level="INFO">Created symlink directory: C:\Users\giaan\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20220829 10:41:33.471" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20220829 10:41:36.043" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20220829 10:41:36.043" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20220829 10:41:36.044" level="INFO">Opening url 'https://robotsparebinindustries.com/'</msg>
+<status status="PASS" starttime="20220829 10:41:26.286" endtime="20220829 10:41:37.144"/>
+</kw>
+<status status="PASS" starttime="20220829 10:41:26.286" endtime="20220829 10:41:37.144"/>
+</kw>
+<status status="PASS" starttime="20220829 10:41:26.285" endtime="20220829 10:41:37.145"/>
+</test>
+<doc>Insert the sales data for the week and export it as a PDF</doc>
+<status status="PASS" starttime="20220829 10:41:23.230" endtime="20220829 10:41:37.146"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
