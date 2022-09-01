@@ -25,7 +25,7 @@ ${out_folder}    ${CURDIR}${/}outputFiles
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc
     Create folders
-
+    
     #Get Author from Vault
     ${username}=    Get The User Name
     Open the robot order website
@@ -59,7 +59,7 @@ Create folders
 
 Open the robot order website
     Open Available Browser   url=${url} 
-
+    
 Get orders
     Download    url=${url_csv}
     ${table}    Read table from CSV    orders.csv
@@ -76,7 +76,7 @@ Fill the form
     Wait Until Element Is Visible    ${choose_head}
     Wait Until Element Is Enabled    ${choose_head}
     Select From List By Value    ${choose_head}    ${row}[Head]
-
+    
     Wait Until Element Is Enabled    ${choose_body}
     Select Radio Button    ${choose_body}    ${row}[Body]
 
