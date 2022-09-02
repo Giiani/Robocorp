@@ -10,6 +10,8 @@ Library    RPA.HTTP
 ${WORK_ITEM_NAME}=    traffic_data
 
 *** Tasks ***
+Produces traffic data work items    
+    Log    Done.
 Consume traffic data work items
     Log    Done.
 
