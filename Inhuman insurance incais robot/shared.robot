@@ -12,5 +12,4 @@ ${WORK_ITEM_NAME}=    traffic_data
 *** Tasks ***
 Consume traffic data work items
     Log    Done.
-Minimal task
-    Log    Done.
+

@@ -27,7 +27,7 @@ Produce traffic data work items
 
 *** Keywords ***
 Download traffic data    
-    Download    
+    Download   
     ...    https://github.com/robocorp/inhuman-insurance-inc/raw/main/RS_198.json
     ...    ${TRAFFIC_JSON_FILE_PATH}
     ...    overwrite=True
@@ -82,6 +82,3 @@ Save work item payload
     [Arguments]    ${payload}
     ${variables}=    Create Dictionary    ${WORK_ITEM_NAME}=${payload}
     Create Output Work Item    variables=${variables}    save=True
-
-Minimal task
-    Log    Done.

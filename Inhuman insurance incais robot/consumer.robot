@@ -66,5 +66,4 @@ Handle invalid traffic data
     ...    message=${message}
 
 
-Minimal task
-    Log    Done.
+
