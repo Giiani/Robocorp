@@ -6,7 +6,6 @@ Library    RPA.Tables
 Library    RPA.Windows
 Library    Collections
 Resource    shared.robot
-Resource    ../Fill Robot Order/tasks.robot
 
 *** Variables ***
 ${TRAFFIC_JSON_FILE_PATH}=    ${OUTPUT_DIR}${/}traffic.json
