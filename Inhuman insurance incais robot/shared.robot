@@ -14,4 +14,3 @@ Produces traffic data work items
     Log    Done.
 Consume traffic data work items
     Log    Done.
-
